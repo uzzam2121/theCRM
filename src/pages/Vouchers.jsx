@@ -24,7 +24,7 @@ const Vouchers = () => {
     { id: 5, voucherNo: 'VOUCH-005', type: 'Credit', amount: '$200', description: 'Commission Payment', status: 'Rejected', date: '2024-12-08', approvedBy: 'Alice Brown' },
     { id: 6, voucherNo: 'VOUCH-006', type: 'Debit', amount: '$2,500', description: 'Software License', status: 'Approved', date: '2024-12-08', approvedBy: 'Charlie Wilson' },
     { id: 7, voucherNo: 'VOUCH-007', type: 'Credit', amount: '$150', description: 'Adjustment Credit', status: 'Pending', date: '2024-12-07', approvedBy: '-' },
-    { id: 8, voucherNo: 'VOUCH-008', type: 'Debit', amount: '$600', description: 'Marketing Expenses', status: 'Approved', date: '2024-12-07', approvedBy: 'Diana Prince' },
+    { id: 8, voucherNo: 'VOUCH-008', type: 'Debit', amount: '$600', description: 'Marketing Expenses', status: 'Approved', date: '2024-12-07', approvedBy: 'Ellie Paul' },
   ])
 
   const handleUpdate = (id, field, value) => {

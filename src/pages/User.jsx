@@ -22,7 +22,7 @@ const User = () => {
     { id: 3, name: 'Bob Johnson', email: 'email@example.com', phone: '11111111', role: 'User', department: 'Sales', status: 'Active' },
     { id: 4, name: 'Alice Brown', email: 'email@example.com', phone: '11111111', role: 'User', department: 'Support', status: 'Inactive' },
     { id: 5, name: 'Charlie Wilson', email: 'email@example.com', phone: '11111111', role: 'Manager', department: 'Operations', status: 'Active' },
-    { id: 6, name: 'Diana Prince', email: 'email@example.com', phone: '11111111', role: 'User', department: 'Sales', status: 'Active' },
+    { id: 6, name: 'Ellie Paul', email: 'email@example.com', phone: '11111111', role: 'User', department: 'Sales', status: 'Active' },
     { id: 7, name: 'Edward Lee', email: 'email@example.com', phone: '11111111', role: 'Admin', department: 'IT', status: 'Active' },
     { id: 8, name: 'Fiona Green', email: 'email@example.com', phone: '11111111', role: 'User', department: 'HR', status: 'Active' },
   ])

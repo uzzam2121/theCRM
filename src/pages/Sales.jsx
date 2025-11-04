@@ -22,7 +22,7 @@ const Sales = () => {
     { id: 3, customer: 'ABC Industry', product: 'Office Chair', quantity: 20, amount: '$5,980', salesperson: 'Bob Johnson', date: '2024-12-03', status: 'Pending' },
     { id: 4, customer: 'XYZ Company', product: 'USB-C Cable', quantity: 50, amount: '$950', salesperson: 'Alice Brown', date: '2024-12-04', status: 'Completed' },
     { id: 5, customer: 'ABC Corp', product: 'Keyboard Mechanical', quantity: 15, amount: '$2,235', salesperson: 'Charlie Wilson', date: '2024-12-05', status: 'Processing' },
-    { id: 6, customer: 'XYZ Tech', product: 'Wireless Mouse', quantity: 30, amount: '$1,470', salesperson: 'Diana Prince', date: '2024-12-06', status: 'Completed' },
+    { id: 6, customer: 'XYZ Tech', product: 'Wireless Mouse', quantity: 30, amount: '$1,470', salesperson: 'Ellie Paul', date: '2024-12-06', status: 'Completed' },
     { id: 7, customer: 'ABC Industry', product: 'Desk Lamp', quantity: 25, amount: '$1,975', salesperson: 'Edward Lee', date: '2024-12-07', status: 'Completed' },
     { id: 8, customer: 'XYZ Company', product: 'Printer Paper', quantity: 100, amount: '$2,900', salesperson: 'Fiona Green', date: '2024-12-08', status: 'Pending' },
   ])

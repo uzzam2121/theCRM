@@ -22,7 +22,7 @@ const Authorization = () => {
     { id: 3, user: 'Bob Johnson', permission: 'Read/Write', module: 'Inventory', status: 'Granted', date: '2024-12-03' },
     { id: 4, user: 'Alice Brown', permission: 'Read Only', module: 'Leads', status: 'Pending', date: '2024-12-04' },
     { id: 5, user: 'Charlie Wilson', permission: 'Full Access', module: 'Users', status: 'Granted', date: '2024-12-05' },
-    { id: 6, user: 'Diana Prince', permission: 'Read/Write', module: 'Cash Book', status: 'Granted', date: '2024-12-06' },
+    { id: 6, user: 'Elie Paul', permission: 'Read/Write', module: 'Cash Book', status: 'Granted', date: '2024-12-06' },
     { id: 7, user: 'Edward Lee', permission: 'Read Only', module: 'Vouchers', status: 'Denied', date: '2024-12-07' },
     { id: 8, user: 'Fiona Green', permission: 'Read/Write', module: 'Authorization', status: 'Granted', date: '2024-12-08' },
   ])

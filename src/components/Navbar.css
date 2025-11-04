@@ -158,24 +158,63 @@
   color: #888888;
 }
 
-/* Mobile Menu Button */
-.mobile-menu-button {
+/* Mobile Header */
+.mobile-header {
   display: none;
   position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 1001;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
+  border-bottom: 1px solid #0099ff33;
+  z-index: 1003;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 0 2px 10px rgba(0, 153, 255, 0.1);
+}
+
+.mobile-header-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0099ff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.mobile-header-logo .logo-icon {
+  font-size: 22px;
+}
+
+/* Mobile Menu Button */
+.mobile-menu-button {
+  display: flex;
   background: #0099ff;
   border: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   box-shadow: 0 4px 15px rgba(0, 153, 255, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1004;
+  position: relative;
+  pointer-events: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.mobile-menu-button:hover {
+  background: #00aaff;
+  transform: scale(1.05);
 }
 
 .hamburger-line {
@@ -195,13 +234,15 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
-  z-index: 1001;
+  z-index: 1002;
   opacity: 0;
   transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .mobile-overlay.open {
   opacity: 1;
+  pointer-events: auto;
 }
 
 /* Mobile Navbar */
@@ -214,10 +255,11 @@
   width: 280px;
   background: linear-gradient(180deg, #0a0a0a 0%, #1a1a1a 100%);
   border-right: 1px solid #0099ff33;
-  z-index: 1002;
+  z-index: 1003;
   transform: translateX(-100%);
   transition: transform 0.3s ease;
   box-shadow: 2px 0 20px rgba(0, 153, 255, 0.2);
+  pointer-events: auto;
 }
 
 .mobile-navbar.open {
@@ -294,8 +336,8 @@
     display: none;
   }
 
-  .mobile-menu-button {
-    display: flex;
+  .mobile-header {
+    display: flex !important;
   }
 
   .mobile-overlay {
@@ -304,6 +346,12 @@
 
   .mobile-navbar {
     display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-header {
+    display: none;
   }
 }
 

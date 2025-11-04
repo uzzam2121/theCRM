@@ -22,7 +22,7 @@ const Leads = () => {
     { id: 3, name: 'Bob Johnson', company: 'ABC Industry', email: 'email@example.com', phone: '11111111', status: 'Qualified', value: '$35K', source: 'Referral' },
     { id: 4, name: 'Alice Brown', company: 'XYZ Company', email: 'email@example.com', phone: '11111111', status: 'New', value: '$15K', source: 'Email' },
     { id: 5, name: 'Charlie Wilson', company: 'ABC Corp', email: 'email@example.com', phone: '11111111', status: 'Contacted', value: '$60K', source: 'Cold Call' },
-    { id: 6, name: 'Diana Prince', company: 'XYZ Tech', email: 'email@example.com', phone: '11111111', status: 'Qualified', value: '$42K', source: 'Website' },
+    { id: 6, name: 'Ellie Paul', company: 'XYZ Tech', email: 'email@example.com', phone: '11111111', status: 'Qualified', value: '$42K', source: 'Website' },
     { id: 7, name: 'Edward Lee', company: 'ABC Industry', email: 'email@example.com', phone: '11111111', status: 'New', value: '$28K', source: 'LinkedIn' },
     { id: 8, name: 'Fiona Green', company: 'XYZ Company', email: 'email@example.com', phone: '11111111', status: 'Qualified', value: '$55K', source: 'Referral' },
   ])

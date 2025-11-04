@@ -55,15 +55,27 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu Button */}
-      <button
-        className="mobile-menu-button"
-        onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-      >
-        <span className="hamburger-line"></span>
-        <span className="hamburger-line"></span>
-        <span className="hamburger-line"></span>
-      </button>
+      {/* Mobile Header */}
+      <div className="mobile-header">
+        <h1 className="mobile-header-logo">
+          <span className="logo-icon">📈</span>
+          <span className="logo-text">MU CRM</span>
+        </h1>
+        <button
+          className="mobile-menu-button"
+          onClick={(e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            setIsMobileMenuOpen(!isMobileMenuOpen);
+          }}
+          type="button"
+          aria-label="Toggle mobile menu"
+        >
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+          <span className="hamburger-line"></span>
+        </button>
+      </div>
 
       {/* Mobile Overlay */}
       <div className={`mobile-overlay ${isMobileMenuOpen ? 'open' : ''}`} onClick={() => setIsMobileMenuOpen(false)}></div>

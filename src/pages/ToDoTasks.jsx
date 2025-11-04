@@ -22,7 +22,7 @@ const ToDoTasks = () => {
     { id: 3, title: 'Update inventory database', assignee: 'Bob Johnson', priority: 'Low', dueDate: '2024-12-15', status: 'Pending' },
     { id: 4, title: 'Schedule demo call with XYZ Tech', assignee: 'Alice Brown', priority: 'High', dueDate: '2024-12-10', status: 'Completed' },
     { id: 5, title: 'Review and approve vouchers', assignee: 'Charlie Wilson', priority: 'Medium', dueDate: '2024-12-12', status: 'Pending' },
-    { id: 6, title: 'Conduct training session', assignee: 'Diana Prince', priority: 'Low', dueDate: '2024-12-18', status: 'In Progress' },
+    { id: 6, title: 'Conduct training session', assignee: 'Ellie Paul', priority: 'Low', dueDate: '2024-12-18', status: 'In Progress' },
     { id: 7, title: 'Send welcome email to new clients', assignee: 'Edward Lee', priority: 'Medium', dueDate: '2024-12-11', status: 'Pending' },
     { id: 8, title: 'Update website content', assignee: 'Fiona Green', priority: 'Low', dueDate: '2024-12-20', status: 'Pending' },
   ])

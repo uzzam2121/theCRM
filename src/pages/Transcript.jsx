@@ -22,7 +22,7 @@ const Transcript = () => {
     { id: 3, callId: 'CALL-003', customer: 'ABC Industry', agent: 'Bob Johnson', duration: '22:15', date: '2024-12-09', type: 'Support', status: 'Completed' },
     { id: 4, callId: 'CALL-004', customer: 'XYZ Company', agent: 'Alice Brown', duration: '12:20', date: '2024-12-09', type: 'Sales', status: 'Completed' },
     { id: 5, callId: 'CALL-005', customer: 'ABC Corp', agent: 'Charlie Wilson', duration: '05:10', date: '2024-12-08', type: 'Support', status: 'Failed' },
-    { id: 6, callId: 'CALL-006', customer: 'XYZ Tech', agent: 'Diana Prince', duration: '18:30', date: '2024-12-08', type: 'Sales', status: 'Completed' },
+    { id: 6, callId: 'CALL-006', customer: 'XYZ Tech', agent: 'Ellie Paul', duration: '18:30', date: '2024-12-08', type: 'Sales', status: 'Completed' },
     { id: 7, callId: 'CALL-007', customer: 'ABC Industry', agent: 'Edward Lee', duration: '09:50', date: '2024-12-07', type: 'Support', status: 'Completed' },
     { id: 8, callId: 'CALL-008', customer: 'XYZ Company', agent: 'Fiona Green', duration: '11:25', date: '2024-12-07', type: 'Sales', status: 'Completed' },
   ])
